@@ -1,0 +1,1126 @@
+2023-11-04T10:52:16.190+03:00  INFO 12664 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 12664 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T10:52:16.192+03:00  INFO 12664 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T10:52:16.670+03:00  INFO 12664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-04T10:52:16.725+03:00  INFO 12664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2023-11-04T10:52:17.047+03:00  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-04T10:52:17.053+03:00  INFO 12664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T10:52:17.053+03:00  INFO 12664 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T10:52:17.131+03:00  INFO 12664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T10:52:17.131+03:00  INFO 12664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 901 ms
+2023-11-04T10:52:17.203+03:00  INFO 12664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T10:52:17.561+03:00  INFO 12664 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64bebd55
+2023-11-04T10:52:17.563+03:00  INFO 12664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T10:52:17.592+03:00  INFO 12664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T10:52:17.627+03:00  INFO 12664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T10:52:17.628+03:00  INFO 12664 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T10:52:17.712+03:00  INFO 12664 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:52:17.772+03:00  INFO 12664 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-04T10:52:17.994+03:00  INFO 12664 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:52:18.387+03:00  INFO 12664 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T10:52:18.390+03:00  INFO 12664 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T10:52:19.025+03:00  WARN 12664 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-04T10:52:19.244+03:00  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-04T10:52:19.251+03:00  INFO 12664 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.357 seconds (process running for 3.823)
+2023-11-04T10:55:13.671+03:00  INFO 12664 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T10:55:13.674+03:00  INFO 12664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T10:55:13.903+03:00  INFO 12664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T10:55:16.313+03:00  INFO 14884 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 14884 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T10:55:16.315+03:00  INFO 14884 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T10:55:17.161+03:00  INFO 14884 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T10:55:17.162+03:00  INFO 14884 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T10:55:17.255+03:00  INFO 14884 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T10:55:17.331+03:00  INFO 14884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T10:55:17.688+03:00  INFO 14884 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b269c4
+2023-11-04T10:55:17.692+03:00  INFO 14884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T10:55:17.719+03:00  INFO 14884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T10:55:17.747+03:00  INFO 14884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T10:55:17.748+03:00  INFO 14884 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T10:55:17.837+03:00  INFO 14884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:55:18.111+03:00  INFO 14884 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:55:18.509+03:00  INFO 14884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T10:55:19.413+03:00  INFO 14884 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.389 seconds (process running for 3.836)
+2023-11-04T10:56:44.536+03:00  INFO 14884 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T10:57:26.291+03:00  INFO 14884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T10:57:26.496+03:00  INFO 14884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T10:57:29.439+03:00  INFO 13456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 13456 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T10:57:29.441+03:00  INFO 13456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T10:57:30.386+03:00  INFO 13456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T10:57:30.387+03:00  INFO 13456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T10:57:30.484+03:00  INFO 13456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T10:57:30.558+03:00  INFO 13456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T10:57:30.918+03:00  INFO 13456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71e7adbb
+2023-11-04T10:57:30.943+03:00  INFO 13456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T10:57:30.967+03:00  INFO 13456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T10:57:30.999+03:00  INFO 13456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T10:57:31.000+03:00  INFO 13456 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T10:57:31.089+03:00  INFO 13456 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:57:31.364+03:00  INFO 13456 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:57:31.766+03:00  INFO 13456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T10:57:32.673+03:00  INFO 13456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.59 seconds (process running for 4.23)
+2023-11-04T10:58:47.343+03:00  INFO 13456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T10:58:47.550+03:00  INFO 13456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T10:58:50.695+03:00  INFO 15232 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 15232 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T10:58:50.698+03:00  INFO 15232 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T10:58:51.543+03:00  INFO 15232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T10:58:51.544+03:00  INFO 15232 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T10:58:51.645+03:00  INFO 15232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T10:58:51.718+03:00  INFO 15232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T10:58:52.049+03:00  INFO 15232 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T10:58:52.052+03:00  INFO 15232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T10:58:52.079+03:00  INFO 15232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T10:58:52.116+03:00  INFO 15232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T10:58:52.118+03:00  INFO 15232 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T10:58:52.208+03:00  INFO 15232 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:58:52.481+03:00  INFO 15232 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T10:58:52.868+03:00  INFO 15232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T10:58:53.696+03:00  INFO 15232 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.292 seconds (process running for 3.77)
+2023-11-04T11:00:20.590+03:00  INFO 15232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T11:00:20.797+03:00  INFO 15232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T11:00:23.880+03:00  INFO 10932 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 10932 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T11:00:23.882+03:00  INFO 10932 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T11:00:24.732+03:00  INFO 10932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T11:00:24.732+03:00  INFO 10932 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T11:00:24.826+03:00  INFO 10932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T11:00:24.902+03:00  INFO 10932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T11:00:25.253+03:00  INFO 10932 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T11:00:25.255+03:00  INFO 10932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T11:00:25.281+03:00  INFO 10932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T11:00:25.309+03:00  INFO 10932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T11:00:25.310+03:00  INFO 10932 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T11:00:25.397+03:00  INFO 10932 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:00:25.674+03:00  INFO 10932 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:00:26.063+03:00  INFO 10932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T11:00:26.932+03:00  INFO 10932 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.34 seconds (process running for 3.775)
+2023-11-04T11:00:35.271+03:00  INFO 10932 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T11:01:10.171+03:00  INFO 10932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T11:01:10.381+03:00  INFO 10932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T11:01:12.917+03:00  INFO 12548 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 12548 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T11:01:12.920+03:00  INFO 12548 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T11:01:13.919+03:00  INFO 12548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T11:01:13.919+03:00  INFO 12548 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T11:01:13.997+03:00  INFO 12548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T11:01:14.082+03:00  INFO 12548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T11:01:14.418+03:00  INFO 12548 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e3df614
+2023-11-04T11:01:14.419+03:00  INFO 12548 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T11:01:14.444+03:00  INFO 12548 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T11:01:14.476+03:00  INFO 12548 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T11:01:14.478+03:00  INFO 12548 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T11:01:14.579+03:00  INFO 12548 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:01:14.866+03:00  INFO 12548 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:01:15.323+03:00  INFO 12548 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T11:01:16.226+03:00  INFO 12548 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.602 seconds (process running for 4.05)
+2023-11-04T11:21:11.334+03:00  INFO 12548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T11:21:11.550+03:00  INFO 12548 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T11:57:52.845+03:00  INFO 15000 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 15000 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T11:57:52.896+03:00  INFO 15000 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T11:57:55.927+03:00  INFO 15000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T11:57:55.927+03:00  INFO 15000 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T11:57:56.112+03:00  INFO 15000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T11:57:56.550+03:00  INFO 15000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T11:57:57.356+03:00  INFO 15000 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@373052b5
+2023-11-04T11:57:57.358+03:00  INFO 15000 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T11:57:57.414+03:00  INFO 15000 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T11:57:57.486+03:00  INFO 15000 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T11:57:57.489+03:00  INFO 15000 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T11:57:57.697+03:00  INFO 15000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:57:58.316+03:00  INFO 15000 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:57:58.916+03:00  INFO 15000 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T11:58:00.628+03:00  INFO 15000 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 8.616 seconds (process running for 14.535)
+2023-11-04T11:59:25.908+03:00  INFO 15000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T11:59:26.110+03:00  INFO 15000 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T11:59:29.397+03:00  INFO 4808 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 4808 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T11:59:29.399+03:00  INFO 4808 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T11:59:30.476+03:00  INFO 4808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T11:59:30.476+03:00  INFO 4808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T11:59:30.552+03:00  INFO 4808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T11:59:30.624+03:00  INFO 4808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T11:59:30.973+03:00  INFO 4808 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b269c4
+2023-11-04T11:59:30.975+03:00  INFO 4808 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T11:59:31.004+03:00  INFO 4808 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T11:59:31.040+03:00  INFO 4808 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T11:59:31.042+03:00  INFO 4808 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T11:59:31.154+03:00  INFO 4808 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:59:31.571+03:00  INFO 4808 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T11:59:32.010+03:00  INFO 4808 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T11:59:32.856+03:00  INFO 4808 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.864 seconds (process running for 4.342)
+2023-11-04T11:59:36.493+03:00  INFO 4808 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T11:59:44.571+03:00  INFO 4808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T11:59:44.779+03:00  INFO 4808 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:01:10.708+03:00  INFO 5624 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 5624 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:01:10.710+03:00  INFO 5624 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:01:11.588+03:00  INFO 5624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:01:11.589+03:00  INFO 5624 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:01:11.669+03:00  INFO 5624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:01:11.743+03:00  INFO 5624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:01:12.080+03:00  INFO 5624 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:01:12.081+03:00  INFO 5624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:01:12.106+03:00  INFO 5624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:01:12.134+03:00  INFO 5624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:01:12.136+03:00  INFO 5624 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:01:12.225+03:00  INFO 5624 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:01:12.507+03:00  INFO 5624 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:01:12.915+03:00  INFO 5624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:01:14.016+03:00  INFO 5624 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.593 seconds (process running for 4.082)
+2023-11-04T12:01:14.031+03:00  INFO 5624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:01:14.244+03:00  INFO 5624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:01:22.833+03:00  INFO 4600 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 4600 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:01:22.835+03:00  INFO 4600 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:01:23.713+03:00  INFO 4600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:01:23.713+03:00  INFO 4600 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:01:23.789+03:00  INFO 4600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:01:23.863+03:00  INFO 4600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:01:24.210+03:00  INFO 4600 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T12:01:24.211+03:00  INFO 4600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:01:24.244+03:00  INFO 4600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:01:24.271+03:00  INFO 4600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:01:24.275+03:00  INFO 4600 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:01:24.369+03:00  INFO 4600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:01:24.637+03:00  INFO 4600 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:01:25.025+03:00  INFO 4600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:01:25.903+03:00  INFO 4600 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.367 seconds (process running for 3.805)
+2023-11-04T12:03:48.431+03:00  INFO 4600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:03:48.642+03:00  INFO 4600 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:03:53.939+03:00  INFO 10252 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 10252 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:03:53.941+03:00  INFO 10252 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:03:54.825+03:00  INFO 10252 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:03:54.825+03:00  INFO 10252 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:03:54.892+03:00  INFO 10252 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:03:54.967+03:00  INFO 10252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:03:55.320+03:00  INFO 10252 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:03:55.322+03:00  INFO 10252 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:03:55.347+03:00  INFO 10252 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:03:55.379+03:00  INFO 10252 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:03:55.381+03:00  INFO 10252 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:03:55.477+03:00  INFO 10252 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:03:55.753+03:00  INFO 10252 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:03:56.143+03:00  INFO 10252 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:03:56.979+03:00  INFO 10252 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.337 seconds (process running for 3.786)
+2023-11-04T12:04:14.156+03:00  INFO 10252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:04:14.372+03:00  INFO 10252 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:04:17.283+03:00  INFO 14556 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 14556 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:04:17.285+03:00  INFO 14556 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:04:18.268+03:00  INFO 14556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:04:18.269+03:00  INFO 14556 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:04:18.366+03:00  INFO 14556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:04:18.457+03:00  INFO 14556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:04:18.805+03:00  INFO 14556 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:04:18.818+03:00  INFO 14556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:04:18.849+03:00  INFO 14556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:04:18.879+03:00  INFO 14556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:04:18.880+03:00  INFO 14556 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:04:18.965+03:00  INFO 14556 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:04:19.252+03:00  INFO 14556 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:04:19.697+03:00  INFO 14556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:04:20.534+03:00  INFO 14556 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.618 seconds (process running for 4.081)
+2023-11-04T12:07:06.963+03:00  INFO 14556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:07:07.174+03:00  INFO 14556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:07:12.741+03:00  INFO 13460 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 13460 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:07:12.743+03:00  INFO 13460 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:07:13.584+03:00  INFO 13460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:07:13.584+03:00  INFO 13460 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:07:13.649+03:00  INFO 13460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:07:13.726+03:00  INFO 13460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:07:14.063+03:00  INFO 13460 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:07:14.064+03:00  INFO 13460 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:07:14.092+03:00  INFO 13460 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:07:14.120+03:00  INFO 13460 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:07:14.122+03:00  INFO 13460 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:07:14.215+03:00  INFO 13460 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:07:14.495+03:00  INFO 13460 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:07:14.898+03:00  INFO 13460 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:07:15.798+03:00  INFO 13460 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.361 seconds (process running for 4.025)
+2023-11-04T12:07:45.543+03:00  INFO 13460 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T12:09:45.914+03:00  INFO 13460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:09:46.121+03:00  INFO 13460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:09:49.094+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 5872 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:09:49.096+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:09:49.946+03:00  INFO 5872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:09:49.946+03:00  INFO 5872 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:09:50.032+03:00  INFO 5872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:09:50.106+03:00  INFO 5872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:09:50.449+03:00  INFO 5872 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:09:50.452+03:00  INFO 5872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:09:50.480+03:00  INFO 5872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:09:50.516+03:00  INFO 5872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:09:50.517+03:00  INFO 5872 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:09:50.621+03:00  INFO 5872 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:09:50.902+03:00  INFO 5872 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:09:51.324+03:00  INFO 5872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:09:52.219+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.412 seconds (process running for 3.868)
+2023-11-04T12:10:11.869+03:00  INFO 5872 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T12:13:46.805+03:00  INFO 5872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:13:47.017+03:00  INFO 5872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:17:11.245+03:00  INFO 752 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 752 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:17:11.247+03:00  INFO 752 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:17:12.158+03:00  INFO 752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:17:12.158+03:00  INFO 752 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:17:12.264+03:00  INFO 752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:17:12.338+03:00  INFO 752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:17:12.704+03:00  INFO 752 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b269c4
+2023-11-04T12:17:12.706+03:00  INFO 752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:17:12.732+03:00  INFO 752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:17:12.760+03:00  INFO 752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:17:12.762+03:00  INFO 752 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:17:12.849+03:00  INFO 752 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:17:13.143+03:00  INFO 752 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:17:13.563+03:00  INFO 752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:17:14.414+03:00  INFO 752 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.476 seconds (process running for 3.949)
+2023-11-04T12:17:46.872+03:00  INFO 752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:17:47.077+03:00  INFO 752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:18:02.000+03:00  INFO 14676 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 14676 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:18:02.002+03:00  INFO 14676 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:18:02.905+03:00  INFO 14676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:18:02.905+03:00  INFO 14676 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:18:02.971+03:00  INFO 14676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:18:03.047+03:00  INFO 14676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:18:03.396+03:00  INFO 14676 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3730f716
+2023-11-04T12:18:03.398+03:00  INFO 14676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:18:03.429+03:00  INFO 14676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:18:03.458+03:00  INFO 14676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:18:03.459+03:00  INFO 14676 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:18:03.550+03:00  INFO 14676 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:18:03.834+03:00  INFO 14676 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:18:04.273+03:00  INFO 14676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:18:05.133+03:00  INFO 14676 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.433 seconds (process running for 3.865)
+2023-11-04T12:18:17.024+03:00  INFO 14676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:18:17.236+03:00  INFO 14676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:18:21.644+03:00  INFO 6284 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 6284 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:18:21.646+03:00  INFO 6284 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:18:22.566+03:00  INFO 6284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:18:22.566+03:00  INFO 6284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:18:22.666+03:00  INFO 6284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:18:22.741+03:00  INFO 6284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:18:23.083+03:00  INFO 6284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c1a8f0f
+2023-11-04T12:18:23.085+03:00  INFO 6284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:18:23.110+03:00  INFO 6284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:18:23.143+03:00  INFO 6284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:18:23.144+03:00  INFO 6284 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:18:23.233+03:00  INFO 6284 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:18:23.511+03:00  INFO 6284 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:18:23.911+03:00  INFO 6284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:18:24.759+03:00  INFO 6284 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.464 seconds (process running for 3.997)
+2023-11-04T12:20:29.744+03:00  INFO 6284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:20:29.962+03:00  INFO 6284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:20:35.506+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 5872 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:20:35.508+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:20:36.377+03:00  INFO 5872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:20:36.377+03:00  INFO 5872 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:20:36.477+03:00  INFO 5872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:20:36.550+03:00  INFO 5872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:20:36.892+03:00  INFO 5872 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T12:20:36.894+03:00  INFO 5872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:20:36.919+03:00  INFO 5872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:20:36.952+03:00  INFO 5872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:20:36.954+03:00  INFO 5872 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:20:37.043+03:00  INFO 5872 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:20:37.324+03:00  INFO 5872 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:20:37.728+03:00  INFO 5872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:20:38.554+03:00  INFO 5872 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.345 seconds (process running for 3.843)
+2023-11-04T12:21:29.951+03:00  INFO 5872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:21:30.158+03:00  INFO 5872 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:22:09.692+03:00  INFO 15064 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 15064 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:22:09.697+03:00  INFO 15064 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:22:10.599+03:00  INFO 15064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:22:10.599+03:00  INFO 15064 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:22:10.709+03:00  INFO 15064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:22:10.785+03:00  INFO 15064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:22:11.143+03:00  INFO 15064 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:22:11.144+03:00  INFO 15064 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:22:11.170+03:00  INFO 15064 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:22:11.199+03:00  INFO 15064 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:22:11.200+03:00  INFO 15064 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:22:11.287+03:00  INFO 15064 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:22:11.564+03:00  INFO 15064 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:22:11.965+03:00  INFO 15064 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:22:12.838+03:00  INFO 15064 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.444 seconds (process running for 3.884)
+2023-11-04T12:22:32.638+03:00  INFO 15064 --- [GigaChadurlNe_bot Telegram Executor] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Пользователь OZM8Eиспользует бота
+2023-11-04T12:23:33.085+03:00  INFO 15064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:23:33.297+03:00  INFO 15064 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:23:38.218+03:00  INFO 6520 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 6520 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:23:38.221+03:00  INFO 6520 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:23:39.068+03:00  INFO 6520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:23:39.069+03:00  INFO 6520 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:23:39.146+03:00  INFO 6520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:23:39.223+03:00  INFO 6520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:23:39.556+03:00  INFO 6520 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T12:23:39.558+03:00  INFO 6520 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:23:39.585+03:00  INFO 6520 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:23:39.622+03:00  INFO 6520 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:23:39.624+03:00  INFO 6520 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:23:39.711+03:00  INFO 6520 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:23:39.985+03:00  INFO 6520 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:23:40.377+03:00  INFO 6520 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:23:41.201+03:00  INFO 6520 --- [main] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Start process check last video
+2023-11-04T12:23:41.704+03:00  INFO 6520 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.777 seconds (process running for 4.247)
+2023-11-04T12:26:08.030+03:00  INFO 6520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:26:08.256+03:00  INFO 6520 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:26:14.037+03:00  INFO 14516 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 14516 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:26:14.039+03:00  INFO 14516 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:26:14.963+03:00  INFO 14516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:26:14.963+03:00  INFO 14516 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:26:15.037+03:00  INFO 14516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:26:15.113+03:00  INFO 14516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:26:15.449+03:00  INFO 14516 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1232cf
+2023-11-04T12:26:15.451+03:00  INFO 14516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:26:15.474+03:00  INFO 14516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:26:15.503+03:00  INFO 14516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:26:15.505+03:00  INFO 14516 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:26:15.592+03:00  INFO 14516 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:26:15.863+03:00  INFO 14516 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:26:16.269+03:00  INFO 14516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:26:17.087+03:00  INFO 14516 --- [main] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Start process check last video
+2023-11-04T12:26:17.593+03:00  INFO 14516 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.86 seconds (process running for 4.389)
+2023-11-04T12:26:31.917+03:00  INFO 14516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:26:32.127+03:00  INFO 14516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:26:37.165+03:00  INFO 15132 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 15132 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:26:37.167+03:00  INFO 15132 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:26:38.022+03:00  INFO 15132 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:26:38.022+03:00  INFO 15132 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:26:38.120+03:00  INFO 15132 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:26:38.196+03:00  INFO 15132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:26:38.561+03:00  INFO 15132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@fd413fb
+2023-11-04T12:26:38.563+03:00  INFO 15132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:26:38.591+03:00  INFO 15132 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:26:38.619+03:00  INFO 15132 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:26:38.620+03:00  INFO 15132 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:26:38.709+03:00  INFO 15132 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:26:38.985+03:00  INFO 15132 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:26:39.382+03:00  INFO 15132 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:26:40.173+03:00  INFO 15132 --- [main] ru.ozmee.YoutubeMailingBot.IOMessage.MessageHandler   : Start process check last video
+2023-11-04T12:26:40.670+03:00  INFO 15132 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.794 seconds (process running for 4.244)
+2023-11-04T12:28:23.660+03:00  INFO 15132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:28:23.883+03:00  INFO 15132 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:28:29.267+03:00  INFO 12456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 12456 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:28:29.270+03:00  INFO 12456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:28:30.167+03:00  INFO 12456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:28:30.167+03:00  INFO 12456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:28:30.242+03:00  INFO 12456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:28:30.315+03:00  INFO 12456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:28:30.658+03:00  INFO 12456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T12:28:30.661+03:00  INFO 12456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:28:30.704+03:00  INFO 12456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:28:30.732+03:00  INFO 12456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:28:30.733+03:00  INFO 12456 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:28:30.819+03:00  INFO 12456 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:28:31.100+03:00  INFO 12456 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:28:31.497+03:00  INFO 12456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:28:32.338+03:00  INFO 12456 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.388 seconds (process running for 3.954)
+2023-11-04T12:28:37.776+03:00  INFO 12456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:28:37.981+03:00  INFO 12456 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:29:19.658+03:00  INFO 12984 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 12984 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:29:19.660+03:00  INFO 12984 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:29:20.854+03:00  INFO 12984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:29:20.854+03:00  INFO 12984 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:29:20.924+03:00  INFO 12984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:29:21.002+03:00  INFO 12984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:29:21.334+03:00  INFO 12984 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@32091c14
+2023-11-04T12:29:21.335+03:00  INFO 12984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:29:21.363+03:00  INFO 12984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:29:21.464+03:00  INFO 12984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:29:21.467+03:00  INFO 12984 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:29:21.574+03:00  INFO 12984 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:29:22.116+03:00  INFO 12984 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:29:22.681+03:00  INFO 12984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:29:23.632+03:00  INFO 12984 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 4.541 seconds (process running for 5.131)
+2023-11-04T12:32:26.874+03:00  INFO 12984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:32:27.121+03:00  INFO 12984 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:32:31.496+03:00  INFO 4212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 4212 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:32:31.498+03:00  INFO 4212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:32:32.421+03:00  INFO 4212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:32:32.421+03:00  INFO 4212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:32:32.496+03:00  INFO 4212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:32:32.570+03:00  INFO 4212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:32:32.933+03:00  INFO 4212 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f6efa4f
+2023-11-04T12:32:32.934+03:00  INFO 4212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:32:32.958+03:00  INFO 4212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:32:32.986+03:00  INFO 4212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:32:32.987+03:00  INFO 4212 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:32:33.074+03:00  INFO 4212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:32:33.345+03:00  INFO 4212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:32:33.749+03:00  INFO 4212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:32:34.629+03:00  INFO 4212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.428 seconds (process running for 3.952)
+2023-11-04T12:33:52.083+03:00  INFO 4212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:33:52.345+03:00  INFO 4212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:33:56.668+03:00  INFO 16304 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 16304 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:33:56.670+03:00  INFO 16304 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:33:57.565+03:00  INFO 16304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:33:57.565+03:00  INFO 16304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:33:57.651+03:00  INFO 16304 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:33:57.728+03:00  INFO 16304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:33:58.075+03:00  INFO 16304 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2574a9e3
+2023-11-04T12:33:58.079+03:00  INFO 16304 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:33:58.111+03:00  INFO 16304 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:33:58.155+03:00  INFO 16304 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:33:58.156+03:00  INFO 16304 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:33:58.271+03:00  INFO 16304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:33:58.559+03:00  INFO 16304 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:33:58.973+03:00  INFO 16304 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:33:59.871+03:00  INFO 16304 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.498 seconds (process running for 3.949)
+2023-11-04T12:34:37.915+03:00  INFO 16304 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:34:38.123+03:00  INFO 16304 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:34:43.292+03:00  INFO 16212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 16212 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:34:43.295+03:00  INFO 16212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:34:44.270+03:00  INFO 16212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:34:44.270+03:00  INFO 16212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:34:44.354+03:00  INFO 16212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:34:44.438+03:00  INFO 16212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:34:44.780+03:00  INFO 16212 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3fe512d2
+2023-11-04T12:34:44.781+03:00  INFO 16212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:34:44.813+03:00  INFO 16212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:34:44.843+03:00  INFO 16212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:34:44.844+03:00  INFO 16212 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:34:44.938+03:00  INFO 16212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:34:45.243+03:00  INFO 16212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:34:45.673+03:00  INFO 16212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:34:46.599+03:00  INFO 16212 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.628 seconds (process running for 4.115)
+2023-11-04T12:35:32.820+03:00  INFO 16212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:35:33.040+03:00  INFO 16212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:35:38.236+03:00  INFO 16308 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Starting ToDoListApplication using Java 17.0.6 with PID 16308 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:35:38.239+03:00  INFO 16308 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:35:39.223+03:00  INFO 16308 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:35:39.223+03:00  INFO 16308 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:35:39.306+03:00  INFO 16308 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:35:39.387+03:00  INFO 16308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:35:39.728+03:00  INFO 16308 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@566e142
+2023-11-04T12:35:39.729+03:00  INFO 16308 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:35:39.757+03:00  INFO 16308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:35:39.788+03:00  INFO 16308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:35:39.790+03:00  INFO 16308 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:35:39.886+03:00  INFO 16308 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:35:40.178+03:00  INFO 16308 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:35:40.607+03:00  INFO 16308 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:35:41.580+03:00  INFO 16308 --- [main] ru.ozmee.YoutubeMailingBot.ToDoListApplication    : Started ToDoListApplication in 3.655 seconds (process running for 4.245)
+2023-11-04T12:36:10.477+03:00  INFO 16308 --- [scheduling-1] ru.ozmee.YoutubeMailingBot.IOMessage.Schedule           : checkLastVideo
+2023-11-04T12:37:10.291+03:00  INFO 16308 --- [scheduling-1] ru.ozmee.YoutubeMailingBot.IOMessage.Schedule           : checkLastVideo
+2023-11-04T12:38:10.312+03:00  INFO 16308 --- [scheduling-1] ru.ozmee.YoutubeMailingBot.IOMessage.Schedule           : checkLastVideo
+2023-11-04T12:38:14.360+03:00  INFO 16308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:38:14.568+03:00  INFO 16308 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:58:05.275+03:00  INFO 14008 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 14008 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:58:05.278+03:00  INFO 14008 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:58:06.264+03:00  INFO 14008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:58:06.264+03:00  INFO 14008 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:58:06.347+03:00  INFO 14008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:58:06.423+03:00  INFO 14008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:58:06.784+03:00  INFO 14008 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@384fda47
+2023-11-04T12:58:06.786+03:00  INFO 14008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:58:06.813+03:00  INFO 14008 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:58:06.848+03:00  INFO 14008 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:58:06.849+03:00  INFO 14008 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:58:06.961+03:00  INFO 14008 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:58:07.253+03:00  INFO 14008 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:58:07.656+03:00  INFO 14008 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:58:08.537+03:00  INFO 14008 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.627 seconds (process running for 4.189)
+2023-11-04T12:58:10.230+03:00  INFO 14008 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T12:58:10.523+03:00  INFO 14008 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T12:59:10.096+03:00  INFO 14008 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T12:59:10.279+03:00  INFO 14008 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T12:59:28.876+03:00  INFO 14008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T12:59:29.081+03:00  INFO 14008 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T12:59:45.007+03:00  INFO 15920 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15920 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T12:59:45.009+03:00  INFO 15920 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T12:59:46.541+03:00  INFO 15920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T12:59:46.541+03:00  INFO 15920 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T12:59:46.627+03:00  INFO 15920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T12:59:46.721+03:00  INFO 15920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T12:59:47.089+03:00  INFO 15920 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29bcf51d
+2023-11-04T12:59:47.096+03:00  INFO 15920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T12:59:47.135+03:00  INFO 15920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T12:59:47.164+03:00  INFO 15920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T12:59:47.166+03:00  INFO 15920 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T12:59:47.260+03:00  INFO 15920 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:59:47.558+03:00  INFO 15920 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T12:59:47.976+03:00  INFO 15920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T12:59:49.043+03:00  INFO 15920 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 4.403 seconds (process running for 5.061)
+2023-11-04T13:00:00.222+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:00:00.517+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:01:00.108+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:01:00.299+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:02:00.091+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:02:00.274+03:00  INFO 15920 --- [scheduling-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:02:55.999+03:00  INFO 15920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:02:56.200+03:00  INFO 15920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:03:33.854+03:00  INFO 7044 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 7044 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:03:33.857+03:00  INFO 7044 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:03:34.797+03:00  INFO 7044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:03:34.797+03:00  INFO 7044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:03:34.869+03:00  INFO 7044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:03:34.951+03:00  INFO 7044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:03:35.296+03:00  INFO 7044 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59a2388e
+2023-11-04T13:03:35.298+03:00  INFO 7044 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:03:35.330+03:00  INFO 7044 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:03:35.359+03:00  INFO 7044 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:03:35.361+03:00  INFO 7044 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:03:35.446+03:00  INFO 7044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:03:35.728+03:00  INFO 7044 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:03:36.133+03:00  INFO 7044 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:03:37.037+03:00  INFO 7044 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.552 seconds (process running for 4.0)
+2023-11-04T13:04:00.103+03:00  INFO 7044 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:04:00.316+03:00  INFO 7044 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:05:00.101+03:00  INFO 7044 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:05:00.269+03:00  INFO 7044 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:06:00.093+03:00  INFO 7044 --- [task-3] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:06:00.274+03:00  INFO 7044 --- [task-3] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:07:00.101+03:00  INFO 7044 --- [task-4] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:07:00.322+03:00  INFO 7044 --- [task-4] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:07:40.207+03:00  INFO 7044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:07:40.410+03:00  INFO 7044 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:07:44.791+03:00  INFO 14988 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 14988 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:07:44.794+03:00  INFO 14988 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:07:45.702+03:00  INFO 14988 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:07:45.703+03:00  INFO 14988 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:07:45.789+03:00  INFO 14988 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:07:45.869+03:00  INFO 14988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:07:46.214+03:00  INFO 14988 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@322e49ee
+2023-11-04T13:07:46.217+03:00  INFO 14988 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:07:46.243+03:00  INFO 14988 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:07:46.271+03:00  INFO 14988 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:07:46.273+03:00  INFO 14988 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:07:46.363+03:00  INFO 14988 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:07:46.646+03:00  INFO 14988 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:07:47.050+03:00  INFO 14988 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:07:47.912+03:00  INFO 14988 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.426 seconds (process running for 3.91)
+2023-11-04T13:08:00.236+03:00  INFO 14988 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:08:00.502+03:00  INFO 14988 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:09:00.096+03:00  INFO 14988 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:09:00.302+03:00  INFO 14988 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:09:07.031+03:00  INFO 14988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:09:07.243+03:00  INFO 14988 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:09:11.724+03:00  INFO 15312 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15312 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:09:11.726+03:00  INFO 15312 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:09:12.661+03:00  INFO 15312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:09:12.662+03:00  INFO 15312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:09:12.729+03:00  INFO 15312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:09:12.812+03:00  INFO 15312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:09:13.147+03:00  INFO 15312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b33e07
+2023-11-04T13:09:13.149+03:00  INFO 15312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:09:13.182+03:00  INFO 15312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:09:13.210+03:00  INFO 15312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:09:13.212+03:00  INFO 15312 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:09:13.312+03:00  INFO 15312 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:09:13.601+03:00  INFO 15312 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:09:14.050+03:00  INFO 15312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:09:15.111+03:00  INFO 15312 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.689 seconds (process running for 4.134)
+2023-11-04T13:09:19.294+03:00  INFO 15312 --- [GigaChadurlNe_bot Telegram Executor] r.o.Y.bot.ExchangeRatesBot               : Пользователь OZM8Eиспользует бота
+2023-11-04T13:10:00.107+03:00  INFO 15312 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:10:00.430+03:00  INFO 15312 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:11:00.088+03:00  INFO 15312 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:11:00.313+03:00  INFO 15312 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:11:06.423+03:00  INFO 15312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:11:06.631+03:00  INFO 15312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:11:12.893+03:00  INFO 3500 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 3500 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:11:12.895+03:00  INFO 3500 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:11:13.901+03:00  INFO 3500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:11:13.901+03:00  INFO 3500 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:11:13.989+03:00  INFO 3500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:11:14.082+03:00  INFO 3500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:11:14.429+03:00  INFO 3500 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e546734
+2023-11-04T13:11:14.431+03:00  INFO 3500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:11:14.464+03:00  INFO 3500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:11:14.498+03:00  INFO 3500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:11:14.500+03:00  INFO 3500 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:11:14.591+03:00  INFO 3500 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:11:14.883+03:00  INFO 3500 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:11:15.299+03:00  INFO 3500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:11:16.192+03:00  INFO 3500 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.603 seconds (process running for 4.092)
+2023-11-04T13:12:00.204+03:00  INFO 3500 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:12:00.492+03:00  INFO 3500 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:12:10.496+03:00  INFO 3500 --- [GigaChadurlNe_bot Telegram Executor] r.o.Y.bot.ExchangeRatesBot               : Пользователь OZM8Eиспользует бота
+2023-11-04T13:13:00.147+03:00  INFO 3500 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:13:00.585+03:00  INFO 3500 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:14:00.144+03:00  INFO 3500 --- [task-3] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:14:00.500+03:00  INFO 3500 --- [task-3] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:14:21.489+03:00  INFO 3500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:14:21.677+03:00  INFO 3500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:14:26.079+03:00  INFO 3664 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 3664 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:14:26.082+03:00  INFO 3664 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:14:27.129+03:00  INFO 3664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:14:27.129+03:00  INFO 3664 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:14:27.194+03:00  INFO 3664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:14:27.276+03:00  INFO 3664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:14:27.643+03:00  INFO 3664 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b33e07
+2023-11-04T13:14:27.646+03:00  INFO 3664 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:14:27.681+03:00  INFO 3664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:14:27.746+03:00  INFO 3664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:14:27.748+03:00  INFO 3664 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:14:27.926+03:00  INFO 3664 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:14:28.233+03:00  INFO 3664 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:14:28.642+03:00  INFO 3664 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:14:29.536+03:00  INFO 3664 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.752 seconds (process running for 4.197)
+2023-11-04T13:15:00.150+03:00  INFO 3664 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:15:00.528+03:00  INFO 3664 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:16:00.140+03:00  INFO 3664 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:16:00.804+03:00  INFO 3664 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:16:22.692+03:00  INFO 3664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:16:22.876+03:00  INFO 3664 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:16:40.274+03:00  INFO 11688 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 11688 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:16:40.276+03:00  INFO 11688 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:16:41.315+03:00  INFO 11688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:16:41.315+03:00  INFO 11688 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:16:41.383+03:00  INFO 11688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:16:41.467+03:00  INFO 11688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:16:41.837+03:00  INFO 11688 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@47b33e07
+2023-11-04T13:16:41.839+03:00  INFO 11688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:16:41.877+03:00  INFO 11688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:16:41.916+03:00  INFO 11688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:16:41.919+03:00  INFO 11688 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:16:42.031+03:00  INFO 11688 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:16:42.391+03:00  INFO 11688 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:16:42.936+03:00  INFO 11688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:16:43.895+03:00  INFO 11688 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 4.018 seconds (process running for 4.516)
+2023-11-04T13:17:00.165+03:00  INFO 11688 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:17:00.633+03:00  INFO 11688 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:17:56.152+03:00  INFO 11688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:17:56.342+03:00  INFO 11688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:18:00.806+03:00  INFO 4956 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 4956 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:18:00.808+03:00  INFO 4956 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:18:01.794+03:00  INFO 4956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:18:01.794+03:00  INFO 4956 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:18:01.861+03:00  INFO 4956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:18:01.949+03:00  INFO 4956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:18:02.307+03:00  INFO 4956 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4aeb0e2b
+2023-11-04T13:18:02.309+03:00  INFO 4956 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:18:02.334+03:00  INFO 4956 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:18:02.372+03:00  INFO 4956 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:18:02.373+03:00  INFO 4956 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:18:02.479+03:00  INFO 4956 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:18:02.774+03:00  INFO 4956 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:18:03.194+03:00  INFO 4956 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:18:04.257+03:00  INFO 4956 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.766 seconds (process running for 4.235)
+2023-11-04T13:18:06.032+03:00  INFO 4956 --- [GigaChadurlNe_bot Telegram Executor] r.o.Y.bot.ExchangeRatesBot               : Пользователь OZM8Eиспользует бота
+2023-11-04T13:19:00.155+03:00  INFO 4956 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:19:00.557+03:00  INFO 4956 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:19:09.045+03:00  INFO 4956 --- [GigaChadurlNe_bot Telegram Executor] r.o.Y.bot.ExchangeRatesBot               : Пользователь OZM8Eиспользует бота
+2023-11-04T13:19:33.075+03:00  INFO 4956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:19:33.260+03:00  INFO 4956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:20:27.702+03:00  INFO 7980 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 7980 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:20:27.704+03:00  INFO 7980 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:20:28.594+03:00  INFO 7980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:20:28.594+03:00  INFO 7980 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:20:28.697+03:00  INFO 7980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:20:28.776+03:00  INFO 7980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:20:29.119+03:00  INFO 7980 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4aeb0e2b
+2023-11-04T13:20:29.120+03:00  INFO 7980 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:20:29.145+03:00  INFO 7980 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:20:29.177+03:00  INFO 7980 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:20:29.178+03:00  INFO 7980 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:20:29.269+03:00  INFO 7980 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:20:29.547+03:00  INFO 7980 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:20:29.944+03:00  INFO 7980 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:20:30.828+03:00  INFO 7980 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.422 seconds (process running for 3.951)
+2023-11-04T13:20:42.062+03:00  INFO 7980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:20:42.267+03:00  INFO 7980 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:20:53.818+03:00  INFO 5016 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 5016 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:20:53.821+03:00  INFO 5016 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:20:55.300+03:00  INFO 5016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:20:55.702+03:00  INFO 5016 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b5ab2f2
+2023-11-04T13:20:55.703+03:00  INFO 5016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:20:55.729+03:00  INFO 5016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:20:55.762+03:00  INFO 5016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:20:55.764+03:00  INFO 5016 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:20:55.863+03:00  INFO 5016 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:20:56.202+03:00  INFO 5016 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:20:56.673+03:00  INFO 5016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:21:11.720+03:00  INFO 12380 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 12380 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:21:11.724+03:00  INFO 12380 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:21:12.910+03:00  INFO 12380 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:21:12.910+03:00  INFO 12380 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:21:12.986+03:00  INFO 12380 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:21:13.090+03:00  INFO 12380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:21:13.465+03:00  INFO 12380 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@422ad5e2
+2023-11-04T13:21:13.466+03:00  INFO 12380 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:21:13.501+03:00  INFO 12380 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:21:13.536+03:00  INFO 12380 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:21:13.538+03:00  INFO 12380 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:21:13.657+03:00  INFO 12380 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:21:13.997+03:00  INFO 12380 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:21:14.482+03:00  INFO 12380 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:22:17.824+03:00  INFO 12380 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 66.62 seconds (process running for 67.673)
+2023-11-04T13:22:17.842+03:00  INFO 12380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:22:18.081+03:00  INFO 12380 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:22:28.000+03:00  INFO 15608 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15608 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:22:28.002+03:00  INFO 15608 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:22:28.964+03:00  INFO 15608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:22:28.965+03:00  INFO 15608 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:22:29.031+03:00  INFO 15608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:22:29.110+03:00  INFO 15608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:22:29.453+03:00  INFO 15608 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f2276c9
+2023-11-04T13:22:29.455+03:00  INFO 15608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:22:29.490+03:00  INFO 15608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:22:29.517+03:00  INFO 15608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:22:29.519+03:00  INFO 15608 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:22:29.604+03:00  INFO 15608 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:22:29.893+03:00  INFO 15608 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:22:30.287+03:00  INFO 15608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:22:31.209+03:00  INFO 15608 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.602 seconds (process running for 4.124)
+2023-11-04T13:23:00.126+03:00  INFO 15608 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:23:00.166+03:00  INFO 15608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:23:00.219+03:00  WARN 15608 --- [task-1] com.zaxxer.hikari.pool.ProxyConnection   : HikariPool-1 - Connection org.postgresql.jdbc.PgConnection@c134544 marked as broken because of SQLSTATE(08003), ErrorCode(0)
+
+org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgConnection.rollback(PgConnection.java:1000) ~[postgresql-42.6.0.jar:42.6.0]
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:385) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:121) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.rollback(JdbcResourceLocalTransactionCoordinatorImpl.java:290) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.rollback(TransactionImpl.java:142) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doRollback(JpaTransactionManager.java:588) ~[spring-orm-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:835) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:809) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:678) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:395) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.12.jar:6.0.12]
+	at ru.ozmee.YoutubeMailingBot.services.ChannelService$$SpringCGLIB$$0.convertVideosHttpToLastVideoHttp(<generated>) ~[classes/:na]
+	at ru.ozmee.YoutubeMailingBot.config.Schedule.checkLastVideo(Schedule.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-11-04T13:23:00.236+03:00 ERROR 15608 --- [task-1] o.s.t.i.TransactionInterceptor           : Application exception overridden by rollback exception
+
+ru.ozmee.YoutubeMailingBot.util.NotFoundLastVideoException: Не удалось подключиться к странице
+	at ru.ozmee.YoutubeMailingBot.services.ChannelService.takeTheScriptFromHTML(ChannelService.java:113) ~[classes/:na]
+	at ru.ozmee.YoutubeMailingBot.services.ChannelService.convertVideosHttpToLastVideoHttp(ChannelService.java:89) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.12.jar:6.0.12]
+	at ru.ozmee.YoutubeMailingBot.services.ChannelService$$SpringCGLIB$$0.convertVideosHttpToLastVideoHttp(<generated>) ~[classes/:na]
+	at ru.ozmee.YoutubeMailingBot.config.Schedule.checkLastVideo(Schedule.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-11-04T13:23:00.248+03:00 ERROR 15608 --- [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void ru.ozmee.YoutubeMailingBot.config.Schedule.checkLastVideo()
+
+org.springframework.transaction.TransactionSystemException: Could not roll back JPA transaction
+	at org.springframework.orm.jpa.JpaTransactionManager.doRollback(JpaTransactionManager.java:592) ~[spring-orm-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:835) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:809) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.completeTransactionAfterThrowing(TransactionAspectSupport.java:678) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:395) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.12.jar:6.0.12]
+	at ru.ozmee.YoutubeMailingBot.services.ChannelService$$SpringCGLIB$$0.convertVideosHttpToLastVideoHttp(<generated>) ~[classes/:na]
+	at ru.ozmee.YoutubeMailingBot.config.Schedule.checkLastVideo(Schedule.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.12.jar:6.0.12]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-6.0.12.jar:6.0.12]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.hibernate.TransactionException: Unable to rollback against JDBC Connection
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:127) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.rollback(JdbcResourceLocalTransactionCoordinatorImpl.java:290) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.rollback(TransactionImpl.java:142) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doRollback(JpaTransactionManager.java:588) ~[spring-orm-6.0.12.jar:6.0.12]
+	... 23 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Соединение уже было закрыто
+	at org.postgresql.jdbc.PgConnection.checkClosed(PgConnection.java:993) ~[postgresql-42.6.0.jar:42.6.0]
+	at org.postgresql.jdbc.PgConnection.rollback(PgConnection.java:1000) ~[postgresql-42.6.0.jar:42.6.0]
+	at com.zaxxer.hikari.pool.ProxyConnection.rollback(ProxyConnection.java:385) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyConnection.rollback(HikariProxyConnection.java) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor.rollback(AbstractLogicalConnectionImplementor.java:121) ~[hibernate-core-6.2.9.Final.jar:6.2.9.Final]
+	... 26 common frames omitted
+
+2023-11-04T13:23:00.333+03:00  INFO 15608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:23:16.289+03:00  INFO 16300 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 16300 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:23:16.292+03:00  INFO 16300 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:23:17.432+03:00  INFO 16300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:23:17.432+03:00  INFO 16300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:23:17.504+03:00  INFO 16300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:23:17.598+03:00  INFO 16300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:23:17.955+03:00  INFO 16300 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e9474f
+2023-11-04T13:23:17.957+03:00  INFO 16300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:23:17.992+03:00  INFO 16300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:23:18.024+03:00  INFO 16300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:23:18.026+03:00  INFO 16300 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:23:18.124+03:00  INFO 16300 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:23:18.407+03:00  INFO 16300 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:23:18.819+03:00  INFO 16300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:23:19.729+03:00  INFO 16300 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.819 seconds (process running for 4.396)
+2023-11-04T13:23:42.785+03:00  INFO 16300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:23:42.970+03:00  INFO 16300 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:33:56.172+03:00  INFO 12240 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 12240 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:33:56.174+03:00  INFO 12240 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:33:57.153+03:00  INFO 12240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:33:57.154+03:00  INFO 12240 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:33:57.225+03:00  INFO 12240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:33:57.310+03:00  INFO 12240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:33:57.659+03:00  INFO 12240 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@626d2016
+2023-11-04T13:33:57.661+03:00  INFO 12240 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:33:57.689+03:00  INFO 12240 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:33:57.719+03:00  INFO 12240 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:33:57.721+03:00  INFO 12240 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:33:57.815+03:00  INFO 12240 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:33:58.117+03:00  INFO 12240 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:33:58.606+03:00  INFO 12240 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:33:59.732+03:00  INFO 12240 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.87 seconds (process running for 4.369)
+2023-11-04T13:34:00.350+03:00  INFO 12240 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:34:01.076+03:00  INFO 12240 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:34:10.849+03:00  INFO 12240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:34:11.034+03:00  INFO 12240 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:35:22.236+03:00  INFO 3356 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 3356 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:35:22.242+03:00  INFO 3356 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:35:23.399+03:00  INFO 3356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:35:23.399+03:00  INFO 3356 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:35:23.472+03:00  INFO 3356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:35:23.566+03:00  INFO 3356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:35:23.920+03:00  INFO 3356 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@125d47c4
+2023-11-04T13:35:23.921+03:00  INFO 3356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:35:23.949+03:00  INFO 3356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:35:23.984+03:00  INFO 3356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:35:23.985+03:00  INFO 3356 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:35:24.098+03:00  INFO 3356 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:35:24.521+03:00  INFO 3356 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:35:25.524+03:00  INFO 3356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:35:26.753+03:00  INFO 3356 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 4.828 seconds (process running for 5.332)
+2023-11-04T13:35:50.709+03:00  INFO 3356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:35:50.893+03:00  INFO 3356 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:35:56.341+03:00  INFO 15784 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15784 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:35:56.343+03:00  INFO 15784 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:35:57.617+03:00  INFO 15784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:35:57.617+03:00  INFO 15784 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:35:57.685+03:00  INFO 15784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:35:57.769+03:00  INFO 15784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:35:58.117+03:00  INFO 15784 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d5a1588
+2023-11-04T13:35:58.119+03:00  INFO 15784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:35:58.160+03:00  INFO 15784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:35:58.194+03:00  INFO 15784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:35:58.195+03:00  INFO 15784 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:35:58.313+03:00  INFO 15784 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:35:58.598+03:00  INFO 15784 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:35:59.014+03:00  INFO 15784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:35:59.908+03:00  INFO 15784 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.875 seconds (process running for 4.384)
+2023-11-04T13:36:00.220+03:00  INFO 15784 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:36:00.667+03:00  INFO 15784 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:37:00.111+03:00  INFO 15784 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:37:00.520+03:00  INFO 15784 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:37:38.387+03:00  INFO 15784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:37:38.573+03:00  INFO 15784 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:37:45.157+03:00  INFO 12944 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 12944 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:37:45.159+03:00  INFO 12944 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:37:46.891+03:00  INFO 12944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:37:46.891+03:00  INFO 12944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:37:47.007+03:00  INFO 12944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:37:47.116+03:00  INFO 12944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:37:47.490+03:00  INFO 12944 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c61eda5
+2023-11-04T13:37:47.491+03:00  INFO 12944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:37:47.526+03:00  INFO 12944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:37:47.564+03:00  INFO 12944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:37:47.566+03:00  INFO 12944 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:37:47.723+03:00  INFO 12944 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:37:48.066+03:00  INFO 12944 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:37:48.747+03:00  INFO 12944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:37:49.896+03:00  INFO 12944 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 5.23 seconds (process running for 5.866)
+2023-11-04T13:38:00.214+03:00  INFO 12944 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:38:00.784+03:00  INFO 12944 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:39:00.114+03:00  INFO 12944 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:39:00.506+03:00  INFO 12944 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:39:05.061+03:00  INFO 12944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:39:05.271+03:00  INFO 12944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:39:10.878+03:00  INFO 9640 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 9640 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:39:10.880+03:00  INFO 9640 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:39:11.867+03:00  INFO 9640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:39:11.867+03:00  INFO 9640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:39:11.934+03:00  INFO 9640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:39:12.026+03:00  INFO 9640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:39:12.358+03:00  INFO 9640 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11d2dd2d
+2023-11-04T13:39:12.359+03:00  INFO 9640 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:39:12.383+03:00  INFO 9640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:39:12.416+03:00  INFO 9640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:39:12.417+03:00  INFO 9640 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:39:12.504+03:00  INFO 9640 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:12.781+03:00  INFO 9640 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:13.203+03:00  INFO 9640 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:39:14.104+03:00  INFO 9640 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.538 seconds (process running for 4.006)
+2023-11-04T13:39:29.588+03:00  INFO 9640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:39:29.783+03:00  INFO 9640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:39:33.527+03:00  INFO 14852 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 14852 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:39:33.529+03:00  INFO 14852 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:39:34.943+03:00  INFO 14852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:39:35.305+03:00  INFO 14852 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@648c5fb3
+2023-11-04T13:39:35.306+03:00  INFO 14852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:39:35.334+03:00  INFO 14852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:39:35.371+03:00  INFO 14852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:39:35.373+03:00  INFO 14852 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:39:35.491+03:00  INFO 14852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:35.779+03:00  INFO 14852 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:36.190+03:00  INFO 14852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:39:37.157+03:00  INFO 14852 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.943 seconds (process running for 4.417)
+2023-11-04T13:39:37.177+03:00  INFO 14852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:39:37.384+03:00  INFO 14852 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:39:42.373+03:00  INFO 2592 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 2592 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:39:42.376+03:00  INFO 2592 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:39:43.336+03:00  INFO 2592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:39:43.337+03:00  INFO 2592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:39:43.404+03:00  INFO 2592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:39:43.488+03:00  INFO 2592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:39:43.836+03:00  INFO 2592 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@648c5fb3
+2023-11-04T13:39:43.838+03:00  INFO 2592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:39:43.865+03:00  INFO 2592 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:39:43.898+03:00  INFO 2592 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:39:43.899+03:00  INFO 2592 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:39:43.990+03:00  INFO 2592 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:44.266+03:00  INFO 2592 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:39:44.680+03:00  INFO 2592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:39:45.685+03:00  INFO 2592 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.617 seconds (process running for 4.115)
+2023-11-04T13:39:52.784+03:00  INFO 2592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:39:52.988+03:00  INFO 2592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:40:13.891+03:00  INFO 12312 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 12312 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:40:13.898+03:00  INFO 12312 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:40:14.906+03:00  INFO 12312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:40:14.907+03:00  INFO 12312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:40:14.973+03:00  INFO 12312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:40:15.058+03:00  INFO 12312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:40:15.393+03:00  INFO 12312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c240cf2
+2023-11-04T13:40:15.395+03:00  INFO 12312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:40:15.419+03:00  INFO 12312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:40:15.447+03:00  INFO 12312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:40:15.449+03:00  INFO 12312 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:40:15.540+03:00  INFO 12312 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:40:15.821+03:00  INFO 12312 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:40:16.246+03:00  INFO 12312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:40:17.251+03:00  INFO 12312 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.707 seconds (process running for 4.168)
+2023-11-04T13:41:00.119+03:00  INFO 12312 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:41:00.536+03:00  INFO 12312 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:42:00.116+03:00  INFO 12312 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:42:00.525+03:00  INFO 12312 --- [task-2] r.ozmee.YoutubeMailingBot.bot.Schedule   : finish checkLastVideo
+2023-11-04T13:42:30.082+03:00  INFO 12312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:42:30.271+03:00  INFO 12312 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:42:35.605+03:00  INFO 4800 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 4800 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:42:35.607+03:00  INFO 4800 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:42:36.566+03:00  INFO 4800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:42:36.566+03:00  INFO 4800 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:42:36.645+03:00  INFO 4800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:42:36.771+03:00  INFO 4800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:42:37.145+03:00  INFO 4800 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@626d2016
+2023-11-04T13:42:37.148+03:00  INFO 4800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:42:37.178+03:00  INFO 4800 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:42:37.213+03:00  INFO 4800 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:42:37.214+03:00  INFO 4800 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:42:37.311+03:00  INFO 4800 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:42:37.599+03:00  INFO 4800 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:42:38.131+03:00  INFO 4800 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:42:39.113+03:00  INFO 4800 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.818 seconds (process running for 4.295)
+2023-11-04T13:42:54.815+03:00  INFO 4800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:42:55.000+03:00  INFO 4800 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:43:25.107+03:00  INFO 15732 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15732 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:43:25.109+03:00  INFO 15732 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:43:25.579+03:00  INFO 15732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-04T13:43:25.629+03:00  INFO 15732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-11-04T13:43:25.965+03:00  INFO 15732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-04T13:43:25.983+03:00  INFO 15732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:43:25.983+03:00  INFO 15732 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:43:26.049+03:00  INFO 15732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:43:26.050+03:00  INFO 15732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2023-11-04T13:43:26.129+03:00  INFO 15732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:43:26.479+03:00  INFO 15732 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f116ca2
+2023-11-04T13:43:26.482+03:00  INFO 15732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:43:26.519+03:00  INFO 15732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:43:26.549+03:00  INFO 15732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:43:26.550+03:00  INFO 15732 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:43:26.636+03:00  INFO 15732 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:43:26.696+03:00  INFO 15732 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-04T13:43:26.911+03:00  INFO 15732 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:43:27.306+03:00  INFO 15732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:43:27.309+03:00  INFO 15732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:43:27.957+03:00  WARN 15732 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-04T13:43:28.203+03:00  INFO 15732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-04T13:43:28.211+03:00  INFO 15732 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.395 seconds (process running for 3.862)
+2023-11-04T13:43:34.597+03:00  INFO 15732 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:43:34.599+03:00  INFO 15732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:43:34.800+03:00  INFO 15732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:44:01.815+03:00  INFO 15212 --- [main] r.o.Y.ToDoListApplication                : Starting ToDoListApplication using Java 17.0.6 with PID 15212 (D:\PetProjects\YoutubeMailing\target\classes started by Denis in D:\PetProjects\YoutubeMailing)
+2023-11-04T13:44:01.817+03:00  INFO 15212 --- [main] r.o.Y.ToDoListApplication                : No active profile set, falling back to 1 default profile: "default"
+2023-11-04T13:44:02.325+03:00  INFO 15212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-04T13:44:02.394+03:00  INFO 15212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2023-11-04T13:44:02.789+03:00  INFO 15212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-04T13:44:02.796+03:00  INFO 15212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:44:02.796+03:00  INFO 15212 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:44:02.866+03:00  INFO 15212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:44:02.866+03:00  INFO 15212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2023-11-04T13:44:02.954+03:00  INFO 15212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:44:03.290+03:00  INFO 15212 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f116ca2
+2023-11-04T13:44:03.291+03:00  INFO 15212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:44:03.316+03:00  INFO 15212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:44:03.353+03:00  INFO 15212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:44:03.354+03:00  INFO 15212 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:44:03.443+03:00  INFO 15212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:44:03.503+03:00  INFO 15212 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-04T13:44:03.714+03:00  INFO 15212 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:44:04.145+03:00  INFO 15212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:44:04.154+03:00  INFO 15212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:44:04.896+03:00  WARN 15212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-04T13:44:05.149+03:00  INFO 15212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-04T13:44:05.158+03:00  INFO 15212 --- [main] r.o.Y.ToDoListApplication                : Started ToDoListApplication in 3.642 seconds (process running for 4.111)
+2023-11-04T13:44:19.371+03:00  INFO 15212 --- [GigaChadurlNe_bot Telegram Executor] r.o.Y.bot.ExchangeRatesBot               : Пользователь OZM8Eиспользует бота
+2023-11-04T13:45:00.121+03:00  INFO 15212 --- [task-1] r.ozmee.YoutubeMailingBot.bot.Schedule   : start checkLastVideo
+2023-11-04T13:45:00.492+03:00  INFO 15212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:45:00.495+03:00  INFO 15212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:45:00.659+03:00  INFO 15212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-04T13:45:04.000+03:00  INFO 15536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-04T13:45:04.058+03:00  INFO 15536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2023-11-04T13:45:04.394+03:00  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-11-04T13:45:04.412+03:00  INFO 15536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-04T13:45:04.413+03:00  INFO 15536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-04T13:45:04.494+03:00  INFO 15536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-04T13:45:04.495+03:00  INFO 15536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 951 ms
+2023-11-04T13:45:04.590+03:00  INFO 15536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-04T13:45:04.939+03:00  INFO 15536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3592c1c4
+2023-11-04T13:45:04.940+03:00  INFO 15536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-04T13:45:04.967+03:00  INFO 15536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-04T13:45:04.996+03:00  INFO 15536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-04T13:45:04.997+03:00  INFO 15536 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-11-04T13:45:05.086+03:00  INFO 15536 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:45:05.148+03:00  INFO 15536 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-04T13:45:05.358+03:00  INFO 15536 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-11-04T13:45:05.764+03:00  INFO 15536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-04T13:45:05.766+03:00  INFO 15536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:45:06.425+03:00  WARN 15536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-04T13:45:06.744+03:00  INFO 15536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-04T13:45:57.909+03:00  INFO 15536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-04T13:45:57.911+03:00  INFO 15536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-04T13:45:58.094+03:00  INFO 15536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
